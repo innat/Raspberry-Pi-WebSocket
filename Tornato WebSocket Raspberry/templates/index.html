@@ -1,0 +1,112 @@
+<html>
+
+<head>
+<title> Socket IO</title>
+<!-- <link rel = "stylesheet" type = "text/css" href = "C:\Users\Mohammed Innat\Downloads\Compressed\a\ws-webio\templates\view.css"/> -->
+
+<style type="text/css">
+	
+	.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 9px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.button2 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+}
+
+.button2:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+.button3 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #f44336;
+}
+
+.button3:hover {
+    background-color: #f44336;
+    color: white;
+}
+
+.button4 {
+    background-color: white;
+    color: black;
+    border: 2px solid #e7e7e7;
+}
+
+.button4:hover {background-color: #e7e7e7;}
+
+.button5 {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+}
+
+.button5:hover {
+    background-color: #555555;
+    color: white;
+}
+
+
+</style>
+
+
+
+</head>
+
+<body>
+
+<div> <!-- LEDs -->
+<h1>Web Socket IO</h1>
+
+
+<button id="green_off" class="button button5">OFF</button>
+<button id="green_on" class="button button1">ON</button>
+<br>
+<button id="blue_off" class="button button5">OFF</button>
+<button id="blue_on" class="button button2">ON</button>
+<br>
+<button id="red_off" class="button button5">OFF</button>
+<button id="red_on" class="button button3">ON</button>
+<br>
+<button id="white_off" class="button button5">OFF</button>
+<button id="white_on" class="button button4">ON</button>
+
+<hr>
+Websocket status:
+<br>
+<div id="ws-status"> Waiting... </div>
+
+<!-- Scripts -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="{{ static_url("ws-client.js")}}"></script>
+
+</body>
+
+</html>
