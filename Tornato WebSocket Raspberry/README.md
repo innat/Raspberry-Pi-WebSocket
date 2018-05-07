@@ -109,7 +109,7 @@ This ip address is unique and it's basically your raspberry pi ip address and fo
 
 Now we can control GPIO pin from our brower by making a web socket.
 
-
+---
 Regards
 
 **World of Void.**
