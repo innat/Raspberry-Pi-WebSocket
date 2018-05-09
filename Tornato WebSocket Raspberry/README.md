@@ -112,4 +112,4 @@ Now we can control GPIO pin from our brower by making a web socket.
 ---
 Regards
 
-**World of Void.**
+**World of Void**
