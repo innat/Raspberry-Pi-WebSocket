@@ -125,6 +125,3 @@ if __name__ == "__main__":
 ```
 And we’re done! You can run the server with python3 chat.py, and try out the chat box by opening http://localhost:8888 in multiple tabs.
 
-```
-
-continue...
